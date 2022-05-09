@@ -25,3 +25,52 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.header {
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+}
+
+.content {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.footer {
+  display:flex;
+  justify-content:space-between;
+  background-color:lightgrey;
+  width:100%;
+}
+
+ul {
+  list-style-type: none;
+  display:flex;
+  padding:8px;
+  margin:8px;
+  gap: 8px;
+}
+
+a {
+  color: rgb(99, 99, 99);
+  font-weight:bolder;
+  text-decoration: none;
+}
+
+button {
+  padding:8px 16px;
+  font-weight:bolder;
+}
